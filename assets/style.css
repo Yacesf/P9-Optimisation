@@ -101,9 +101,10 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: white;
+	filter: contrast(100%);
 	background-color: #BEB45A;
-	border-radius:0 ;
+	border-radius: 0;
 }
 .nav-pills .nav-link {
 	color: #000
@@ -244,7 +245,6 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
-
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
@@ -354,4 +354,3 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
-
